@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .form-table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .form-table td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .form-table input[type="text"],
+        .form-table input[type="email"],
+        .form-table input[type="password"] {
+            width: 95%;
+            padding: 5px;
+        }
+
+        .form-table input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .form-table .full-width {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Form in table by Shubh Soni</h1>
+    </header>
+
+    <main>
+        <table class="form-table">
+            <tr>
+                <td colspan="3">
+                    <h2 align="center">Form in Table</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>Your full name:</td>
+                <td colspan="2">
+                    <input type="text" placeholder="Enter Your First name">
+                    <input type="text" placeholder="Enter Your Middle name">
+                    <input type="text" placeholder="Enter Your Last name">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your address:</td>
+                <td colspan="2">
+                    <input type="text" placeholder="Address line 1" class="full-width">
+                    <input type="text" placeholder="Address line 2" class="full-width">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Your Email:</td>
+                <td colspan="2"><input type="email" placeholder="E-mail here..." class="full-width"></td>
+            </tr>
+            <tr>
+                <td>Enter Your password:</td>
+                <td colspan="2"><input type="password" placeholder="Password required !" class="full-width"></td>
+            </tr>
+            <tr>
+                <td>Re-Enter Your password:</td>
+                <td colspan="2"><input type="password" placeholder="Re-Enter Password" class="full-width"></td>
+            </tr>
+            <tr>
+                <td>Enter Your Mobile Number:</td>
+                <td colspan="2"><input type="text" placeholder="Mobile Number 10 digit" class="full-width"></td>
+            </tr>
+            <tr>
+                <td>Enter Your Gender:</td>
+                <td colspan="2">
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p align="right">&copy; All Rights Reserved By Shubh Soni</p>
+    </footer>
+
+</body>
+
+</html>
