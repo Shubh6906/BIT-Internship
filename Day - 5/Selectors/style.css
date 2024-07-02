@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.infoheading{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.info{
+    display: flex;
+}
+
+/* Element Selector */
+h2{
+    background-color: white;
+    border: 2px solid red;
+}
+
+/* ID Selector */
+#fifty{
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Class Selector */
+.thirty{
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Child Selector */
+.child > p{
+    background-color: white;
+    border: 2px solid red;
+}
+
+/* Descendent Selector */
+.parent p{
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+/* Universal Selector */
+*{
+    background-color: bisque;
+}

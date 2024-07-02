@@ -1,0 +1,20 @@
+*{
+    background-color: beige;
+}
+
+/* Styling Using Class */
+.mainHeading{
+    background-color: black;
+    color: aqua;
+}
+
+.hundredWords{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+/* Styling using ID */
+#fifty{
+    background-color: aqua;
+    color: black;
+}
