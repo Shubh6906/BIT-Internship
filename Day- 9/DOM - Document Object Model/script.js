@@ -37,3 +37,24 @@ tn[0].appendChild(createdElem2, createdElem);
 document.location(); // Shows location of the document
 
 document.title(); // Shows title of the document
+
+document.URL(); // Gives the URL of the document
+
+document.scripts(); // Gives all the scripts created
+
+document.links(); // Gives the html links
+
+document.forms(); // Shows forms in a page
+
+document.images(); // Shows images of that page
+
+document.domain(); // Shows the domain of the document without slashes
+
+// Selecting Using Query
+
+sel = document.querySelector('.container'); // Gives the first element of the container class
+console.log(sel);
+
+sel = document.querySelectorAll('.container'); // Gives all elements of the container class
+console.log(sel);
+
