@@ -170,3 +170,73 @@ footer .footer-rights{
     color: gray;
     padding: 12px 0;
 }
+
+@media screen and (max-width: 1200px) {
+    body{
+        min-width: fit-content;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .left{
+        margin: 25px;
+    }
+
+    .box{
+        flex-direction: column;
+    }
+
+    .secondSection .vertical{
+        height: unset;
+    }
+
+    .vertical-title, .vertical-desc{
+        left: 45px;
+    }
+
+    .secondSection .box{
+        width: 50vw;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+
+    .leftSection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightSection{
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img{
+        width: 45vw;
+        margin-bottom: 73px;
+    }
+
+    .image-top{
+        top: 122px;
+    }
+
+    .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 141vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
